@@ -1,0 +1,294 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  padding: 0 !important;
+}
+
+@media (max-width: 900px){
+  .promo
+  {
+    text-align: center;
+  }
+  #banner p
+  {
+    text-align: center;
+  }
+  #banner a
+  {
+   margin-left:  100px;
+  }
+}
+.navbar-brand img{
+  height: 40px;
+  padding-left: 20px;
+}
+
+.navbar-nav li{
+ padding: 0 10px;
+}
+
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.fa-bars{
+  color: #fff;
+  font-size: 30px !important
+}
+
+.navbar-toggler{
+ outline: none !important;
+}
+
+
+
+/* banner section */
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo{
+  font-size:  65px;
+  font-weight: 600;
+  margin-top: 100px;
+  font-family: "Montserrat";
+}
+
+.play-btn{
+  width: 45px;
+  margin: 20px;
+}
+
+
+#banner a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.bottom-img{
+  width: 100%;
+}
+
+/* service section */
+
+#service{
+  padding: 80px 0;
+}
+
+.service p{
+  text-align: center;
+}
+
+.service h4{
+  text-align: center;
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.service img{
+
+  padding-bottom: 30px;
+  padding-left: 80px;
+  padding-top: 5rem;
+
+}
+.game{
+  padding-right: 60px;
+}
+.title{
+  padding-top: 10rem;
+}
+
+.title::before
+{
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after
+{
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+.c1
+{
+  padding-bottom: 70px;
+}
+.rounded-pill
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 70px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  color:#fff;
+}
+
+
+/* about-us section */
+
+#about-us
+{
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+
+.about-us-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+#about-us ul li
+{
+  margin: 10px 0px;
+}
+#about-us ul
+{
+  margin-left: 20px;
+}
+
+/* TESTIMONIAL sect ion */
+
+
+#TESTIMONIALS
+{
+  margin: 100px 0;
+}
+.TESTIMONIAL
+{
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.TESTIMONIAL img{
+  height:  60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user1
+{
+  display: inline-block;
+  font-size: 120;
+}
+/* SOCAIL MEDIA SECTION */
+
+#social-media
+{
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+
+#social-media p
+{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icon img
+{
+  width: 60px;
+  transition: 0.5s;
+}
+
+.social-icon a:hover img
+{
+  transform: translateY(-10px);
+}
+
+
+/* footer section */
+
+.footer
+{
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  color: #fff;
+}
+
+.footer-img
+{
+  width: 94.9rem;
+}
+
+.footer-box
+{
+  padding: 20px;
+}
+
+.footer-box img
+{
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-box .email
+{
+  box-shadow: none !important;
+  border: none;
+  border-radius:  0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+.footer-box .btn-primary
+{
+  box-shadow: none;
+  border: none;
+  margin-top:25px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+hr
+{
+  background-color: #fff;
+}
+
+
+.copyright
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.footer .fa
+  {
+    padding-right: 5px;
+  }
